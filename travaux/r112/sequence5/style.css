@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #3dd0ac;
+  height: 500px;
+  background-image: url(ressources/tree.png);
+  background-repeat: no-repeat;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+nav {
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+}
+
+#en_cours {
+  background-color: white;
+  color: #3dd0ac;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+nav {
+  position: relative;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Helvetica;
+  text-transform: uppercase;
+}
+
+li {
+  padding-inline: 0px 30px;
+}
+
+li :hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.titre {
+  display: flex;
+  margin-top: 350px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+#titre {
+  position: relative;
+  margin: 0 auto;
+}
+
+section {
+  position: relative;
+  width: 760px;
+  margin-inline: 10px;
+  margin: 30px auto;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 44px;
+  letter-spacing: 4x;
+  text-align: center;
+  color: grey;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-inline: 10px 0;
+  text-align: justify;
+  color: grey;
+}
+img {
+  position: relative;
+  width: 600px;
+  height: 427px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  margin: 0 auto;
+  display: block;
+}
+
+footer {
+  height: 40px;
+  background-color: #3dd0ac;
+  margin-inline: 10px;
+  color: white;
+  margin: 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+iframe {
+  margin: 0 auto;
+  display: block;
+}
+#footer {
+  position: relative;
+  text-align: center;
+  top: 10px;
+}

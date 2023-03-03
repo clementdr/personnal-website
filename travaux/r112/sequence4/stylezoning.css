@@ -1,0 +1,193 @@
+﻿body {
+  background: #eeee;
+  font-family: "Sintony", sans-serif;
+}
+
+#zonecentrale {
+  background: #eeee;
+  width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+}
+
+/*
+hr {
+}
+*/
+
+#titre_principal {
+  width: 292px;
+  font-size: 20px;
+}
+
+#img_titre {
+  width: 55px;
+  height: 55px;
+}
+
+#logo {
+  display: flex;
+  width: 292px;
+}
+
+#text_logo {
+  font-family: "Damion", cursive;
+  font-size: 25px;
+  margin: 30px 0px 0px 6px;
+}
+
+#etu {
+  font-size: 1, 5em;
+}
+
+nav {
+  font-size: 1.1em;
+  width: 596px;
+  margin-inline: 183px;
+  padding-inline: 200px;
+  padding-right: 0;
+  margin: 42px 0 0 0;
+}
+nav ul {
+  list-style-type: none;
+}
+nav li {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 5px 0px;
+}
+
+nav a:hover {
+  color: #a33;
+  border-bottom: 2px solid #a33;
+}
+
+#banniere_image {
+  box-shadow: 3px 1px 5px -2px;
+  border-radius: 10px;
+  position: relative;
+  height: 200px;
+  margin-bottom: 12px;
+  background-image: url(images/batiment.jpg);
+}
+
+#banniere_description {
+  border-radius: 0px 0px 10px 10px;
+  position: absolute;
+  height: 45px;
+  width: 100%;
+  background-color: rgba(24, 24, 24, 0.8);
+  color: white;
+  bottom: 0;
+}
+
+#txt_ban {
+  padding: 14px 0px 14px 3px;
+  margin: 0;
+}
+
+#section {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#reseaux {
+  display: flex;
+}
+
+.res_img {
+  width: 53px;
+  margin-inline: 3px;
+}
+
+article {
+  text-align: justify;
+  width: 596px;
+  height: 500px;
+  background-color: #eeee;
+}
+
+aside {
+  color: #fff;
+  margin-left: 12px;
+  height: 500px;
+  width: 292px;
+  background-color: #706b64;
+  box-shadow: 3px 1px 5px -2px rgba(0, 0, 0, 0.85);
+  border-radius: 10px 10px;
+}
+
+#txt_as {
+  padding: 0px 10px;
+}
+
+#txt_as2 {
+  text-align: justify;
+  padding: 0px 10px;
+}
+
+#img_as {
+  padding: 0px 76px;
+}
+
+#img2_as {
+  position: relative;
+  top: -100px;
+  right: 12px;
+}
+
+footer {
+  display: flex;
+  background-color: #eee;
+}
+.h1_ftr {
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+#txt_ftr {
+  margin-left: 5px;
+}
+
+#tweet {
+  background-color: rgb(212, 212, 212);
+  width: 292px;
+  box-shadow: 3px 1px 5px -2px;
+  border-radius: 10px;
+}
+
+#mes_photos {
+  background-color: rgb(212, 212, 212);
+  margin-left: 12px;
+  width: 292px;
+  box-shadow: 3px 1px 5px -2px;
+  border-radius: 10px;
+}
+#photos {
+  display: flex;
+  margin: 5px;
+}
+
+.pht {
+  width: 60px;
+  margin-inline: 5px;
+  border: 1px solid black;
+}
+
+#mes_liens {
+  margin-left: 12px;
+  background-color: rgb(212, 212, 212);
+  width: 292px;
+  box-shadow: 3px 1px 5px -2px;
+  border-radius: 10px;
+}

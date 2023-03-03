@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Panier</title>
+  </head>
+
+  <body>
+    <h1>Panier</h1>
+    <hr />
+    <div id="panier">
+      <div id="produit">
+        <h2>Produit(s)</h2>
+        <table>
+          <tr>
+            <td>Produit</td>
+            <td>Référence du produit</td>
+            <td>Caracteristiques</td>
+            <td>Prix unitaire</td>
+            <td>Quantité</td>
+            <td>Prix total</td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>
+              <img src="ressources/livre.jpeg" alt="Livre" width="100px" />
+            </td>
+            <td>0123456789</td>
+            <td>
+              Le tour du monde en 80 jours <br />
+              Roman <br />
+              200 pages
+            </td>
+            <td>5 €</td>
+            <td>
+              <label for="Nombre"></label>
+              <select name="Nombre" id="NB">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+              </select>
+            </td>
+            <td>-</td>
+            <td><input type="submit" value="Supprimer" /></td>
+          </tr>
+
+          <tr>
+            <td>
+              <img
+                src="ressources/chaussettes.jpg"
+                alt="Chaussettes"
+                width="100px"
+              />
+            </td>
+            <td>9876543210</td>
+            <td>
+              Taille 39-42 <br />
+              Noires
+            </td>
+            <td>8 €</td>
+            <td>
+              <label for="Nombre"></label>
+              <select name="Nombre" id="NB">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+              </select>
+            </td>
+            <td>-</td>
+            <td><input type="submit" value="Supprimer" /></td>
+          </tr>
+
+          <tr>
+            <td>
+              <img src="ressources/usbc.jpeg" alt="Cable USB C" width="100px" />
+            </td>
+            <td>0192837465</td>
+            <td>
+              Cable tressé <br />
+              1m50
+            </td>
+            <td>10 €</td>
+            <td>
+              <label for="Nombre"></label>
+              <select name="Nombre" id="NB">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+              </select>
+            </td>
+            <td>-</td>
+            <td><input type="submit" value="Supprimer" /></td>
+          </tr>
+
+          <tr>
+            <td>
+              <img src="ressources/montre.jpg" alt="montre" width="100px" />
+            </td>
+            <td>1029384756</td>
+            <td>
+              Montre Casio <br />
+              Classique Homme
+            </td>
+            <td>13 €</td>
+            <td>
+              <label for="Nombre"></label>
+              <select name="Nombre" id="NB">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+              </select>
+            </td>
+            <td>-</td>
+            <td><input type="submit" value="Supprimer" /></td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <div id="paiment">
+          <h2>Paiement</h2>
+          <label for="code">Code promo :</label>
+          <input
+            type="text"
+            id="code_promo"
+            name="code_promo"
+            placeholder="XXXX"
+          />
+          <td><input type="submit" value="Valider" /></td>
+
+          <br /><br />
+          <label for="Livraison"> Livraison :</label>
+          <select name="livraison" id="liv">
+            <option value="Standard">
+              Standard : Gratuit - 5 à 7 jours ouvrés
+            </option>
+            <option value="Premium">Premium : 5 € - 1 à 2 jours ouvrés</option>
+            <option value="Personnalisée">
+              Personnalisée : 7 € - au choix du lundi au vendredi
+            </option>
+          </select>
+
+          <br />
+
+          <div id="prix">
+            <p>Prix total du panier : 36 €</p>
+            <p class="tva">(TVA 20%)</p>
+            <p class="tva">Prix HT : 30 €</p>
+          </div>
+
+          <label for="paimenet"> Moyen de paiment :</label>
+          <select name="paiement" id="pai">
+            <option value="Visa">Visa</option>
+            <option value="Mastercard">Mastercard</option>
+            <option value="Maestro">Maestro</option>
+            <option value="Paypal">Paypal</option>
+          </select>
+
+          <br /><br />
+
+          <td><input type="submit" value="Étape suivante" /></td>
+        </div>
+        <div>
+          <br /><br />
+          <p class="tva">
+            Voir les conditions de <a href="#">retour</a> et de
+            <a href="#">garanties</a> légales.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <hr />
+    <div id="suggestions">
+      <h3>
+        Parce que vous avez récemment commandé "Housse de Protection pour
+        MacBook Pro 13 pouces"
+      </h3>
+      <div id="sugg">
+        <div class="prod_sugg">
+          <img src="ressources/coque.jpeg" alt="coque" width="200px" />
+          <p>Coque de protection pour iPhone 13 et 14</p>
+        </div>
+
+        <div class="prod_sugg">
+          <img src="ressources/ipad.jpeg" alt="ipad" width="180px" />
+          <p>iPad Pro</p>
+        </div>
+
+        <div class="prod_sugg">
+          <img
+            src="ressources/table_basse.jpg.webp"
+            alt="table_basse"
+            width="200px"
+          />
+          <p>Table basse en bois pour salon</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
