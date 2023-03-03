@@ -1,0 +1,630 @@
+@import url("https://fonts.googleapis.com/css2?family=Unna&display=swap");
+
+/* header */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 30px;
+  height: 80px;
+}
+
+#logo_header {
+  width: 100px;
+}
+
+nav ul {
+  display: flex;
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+}
+
+nav li {
+  padding-left: 40px;
+}
+
+nav a {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  font-family: "Unna", serif;
+}
+
+li > a {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+li > a::after {
+  content: "";
+  display: block;
+  margin: auto;
+  height: 1px;
+  width: 0;
+  top: 5px;
+  background: transparent;
+  transition: all 0.3s;
+}
+
+li > a:hover::after {
+  width: 100%;
+  background: black;
+}
+
+.active a {
+  color: rgb(0, 0, 0);
+  text-decoration-line: overline;
+  font-style: italic;
+}
+
+/* header */
+
+/* body */
+body {
+  margin: 0;
+  font-family: "Unna", serif;
+  width: 1080px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+/* body */
+
+/*accueil*/
+
+#pres_zimmer_acc {
+  position: relative;
+  height: 675px;
+  background-image: url(../images/zimmer_accueil.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#text_acc {
+  position: absolute;
+  top: 260px;
+  right: 170px;
+}
+
+#tit_zimmer {
+  color: white;
+  font-size: 60px;
+  margin: 0;
+}
+
+#baseline_zimmer {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  margin-left: 3px;
+}
+
+#sig_zimmer {
+  position: absolute;
+  width: 25%;
+  top: 400px;
+  right: 150px;
+}
+
+#zim_presentation {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+
+#zim_presentation img {
+  width: 300px;
+  filter: saturate(0%);
+}
+
+#zim_presentation p {
+  padding: 0 0 0 50px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+/*accueil*/
+
+/* données*/
+#pres_zimmer_disco {
+  position: relative;
+  height: 412px;
+  background-image: url(../images/zimmer_work.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#text_dis {
+  position: absolute;
+  top: 170px;
+  left: 170px;
+}
+
+#tit_disco {
+  color: white;
+  font-size: 60px;
+  margin: 0;
+}
+
+#baseline_disco {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  margin-left: 3px;
+}
+
+table {
+  margin: auto;
+  padding-top: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.dataTables_wrapper {
+  position: relative;
+  clear: both;
+  padding: 50px;
+}
+
+#data_table thead td {
+  text-align: center;
+}
+
+#data_table.dataTable thead td {
+  border-bottom: 1px solid rgb(184, 184, 184);
+}
+
+#data_table.dataTable.no-footer {
+  border-bottom: 1px solid rgb(184, 184, 184);
+}
+
+#data_table tr:nth-child(odd) {
+  background-color: rgb(235, 235, 235);
+}
+
+#data_table thead td {
+  background-color: rgb(218, 218, 218);
+}
+
+/* données*/
+
+/* galerie */
+#pres_zimmer {
+  position: relative;
+  height: 412px;
+  background-image: url(../images/zimmer_orchestra.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#text_gal {
+  position: absolute;
+  top: 170px;
+  right: 190px;
+}
+
+#tit_orch {
+  color: white;
+  font-size: 60px;
+  margin: 0;
+}
+
+#baseline_orch {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  margin-left: 3px;
+}
+
+#upload_images {
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 350px;
+}
+
+#form_upload {
+  text-align: center;
+}
+
+#form_upload label {
+  padding: 0;
+}
+
+#form_upload #file {
+  display: flex;
+  align-content: center;
+  font-family: "Unna", serif;
+  font-size: 18px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+#form_upload #download {
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  color: black;
+  text-decoration: none;
+  transition: 0.3s;
+  font-family: "Unna", serif;
+  font-size: 18px;
+}
+
+#form_upload #download:hover {
+  background-color: rgb(235, 235, 235);
+  color: black;
+}
+
+#galerie {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.galerie_img {
+  padding: 20px;
+  width: 29%;
+  height: auto;
+  filter: saturate(0%);
+  transition: 0.5s;
+}
+
+.galerie_img:hover {
+  filter: none;
+}
+
+/* galerie */
+
+/* contact */
+#pres_zimmer_stu {
+  position: relative;
+  height: 412px;
+  background-image: url(../images/zimmer_studio.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#text_stu {
+  position: absolute;
+  top: 170px;
+  left: 232px;
+}
+
+#tit_stu {
+  color: white;
+  font-size: 60px;
+  margin: 0;
+}
+
+#baseline_stu {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  margin-left: 3px;
+}
+
+#contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+#contact_2 {
+  background-color: rgb(235, 235, 235);
+  height: 450px;
+  width: 400px;
+  padding: 50px;
+}
+
+#label_en_tete {
+  font-size: 25px;
+}
+
+#contact_form {
+  padding: 20px 0;
+  width: 400px;
+}
+
+#en_tete {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+#contact_mess,
+#contact_obj {
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
+
+#contact_mail {
+  padding-bottom: 20px;
+}
+
+label {
+  display: block;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+legend {
+  font-size: 30px;
+}
+
+.champ {
+  height: 30px;
+  font-size: 15px;
+  border: 0;
+}
+
+#email,
+#objet,
+#demande {
+  height: 30px;
+  font-size: 15px;
+  border: 0;
+}
+
+#demande {
+  height: 30px;
+  font-size: 15px;
+  border: 0;
+}
+#contact_dem {
+  display: flex;
+  justify-content: space-between;
+}
+#contact_dem .choice {
+  padding-bottom: 20px;
+  display: grid;
+  justify-items: center;
+}
+
+.choice input {
+  width: auto;
+}
+
+#message {
+  font-size: 15px;
+  border: 0;
+  resize: none;
+}
+
+#submit {
+  border: 0;
+  background-color: white;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  font-family: "Unna", serif;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+::placeholder {
+  font-family: "Unna", serif;
+}
+
+input {
+  box-sizing: border-box;
+  padding-left: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 10px;
+  padding-top: 7px;
+  border-radius: 5px;
+}
+
+#submit:hover {
+  background-color: rgb(218, 218, 218);
+}
+
+#clement_contact_photo {
+  height: 550px;
+  width: auto;
+  filter: saturate(0%);
+}
+
+#envoie_message {
+  text-align: center;
+  padding-top: 30px;
+}
+/* contact */
+
+/* partenaires */
+#partenaires_top_page {
+  display: flex;
+  justify-content: center;
+  width: 1080px;
+}
+
+.partenaires_profil_images {
+  width: auto;
+  height: 500px;
+  filter: saturate(0%);
+  transition: 0.3s;
+}
+
+.partenaires_profil_images:hover {
+  filter: none;
+}
+
+#notre_groupe {
+  text-align: center;
+  margin: 50px 0 0 0;
+}
+
+#partenaires_pres {
+  padding: 0 50px 50px 50px;
+}
+
+#partenaires_pres p {
+  text-align: justify;
+  line-height: 30px;
+}
+
+.partenaires_members {
+  display: flex;
+  align-items: center;
+  padding: 0 50px 100px;
+}
+
+.partenaires_members img {
+  width: 300px;
+  filter: saturate(0%);
+  border-radius: 50%;
+}
+
+.partenaires_members p {
+  padding: 0 0 0 50px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+#en_savoir_plus {
+  margin-bottom: 100px;
+}
+
+#en_savoir_plus p {
+  text-align: center;
+}
+
+#partenaires_button {
+  display: flex;
+  justify-content: space-around;
+}
+
+#partenaires_button a {
+  background-color: rgb(218, 218, 218);
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+#partenaires_button a:hover {
+  background-color: rgb(235, 235, 235);
+  color: black;
+}
+/* partenaires */
+
+/* refecences */
+.references {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+
+.references img {
+  width: 400px;
+  filter: saturate(0%);
+}
+
+.references p {
+  padding-left: 50px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.references a {
+  color: black;
+  text-decoration: none;
+  font-family: "Unna", serif;
+}
+
+.references a {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.references a::after {
+  content: "";
+  display: block;
+  margin: auto;
+  height: 1px;
+  width: 0;
+  top: 5px;
+  background: transparent;
+  transition: all 0.3s;
+}
+
+.references a:hover::after {
+  width: 100%;
+  background: black;
+}
+
+.references .references_p {
+  margin: 0;
+  min-width: 400px;
+  max-width: 400px;
+  padding: 0;
+  line-height: 30px;
+  text-align: justify;
+}
+
+/* refecences */
+
+/* footer */
+footer {
+  background-color: white;
+  width: 1080px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 15px 0;
+}
+
+footer p {
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+  font-family: "Unna", serif;
+  margin: 0;
+}
+
+footer a {
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+  font-family: "Unna", serif;
+}
+
+footer a {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+footer a::after {
+  content: "";
+  display: block;
+  margin: auto;
+  height: 1px;
+  width: 0;
+  top: 5px;
+  background: transparent;
+  transition: all 0.3s;
+}
+
+footer a:hover::after {
+  width: 100%;
+  background: black;
+}
+
+/* footer */

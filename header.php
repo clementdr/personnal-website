@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 <header>
     <li id="logo"><a href="index.php">de roberti.</a> </li>
 
@@ -28,3 +29,7 @@
     </div>
 
 </header>
+
+<a href="#" id="up-button"><span class="material-symbols-outlined">
+        expand_less
+    </span></a>

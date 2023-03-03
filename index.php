@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="icon" href="#">
+    <link rel="icon" href="img/favicon.png">
     <title>Accueil</title>
 </head>
 
 <body>
+
     <?php
     include('header.php');
     ?>
@@ -23,7 +24,7 @@
                     <h1>Clément De Roberti</h1>
                     <h5>Vidéaste / Graphiste Junior</h5>
                     <div><a href="https://www.behance.net/clementdr" target="_blank"><img src="img/Behance-min.png" alt="behance"> </a>
-                        <a href="https://dribbble.com/clementdr" target="_blank"><img src="img/Dribbble-min.png" alt="dribble"> </a>
+                        <a href="https://dribbble.com/clementdr" target="_blank"><img src="img/Dribbble-min.png" alt="dribbble"> </a>
                         <a href="https://instagram.com/clement.dr" target="_blank"><img src="img/Instagram-min.png" alt="instagram"> </a>
                         <a href="https://fr.linkedin.com/in/cl%C3%A9ment-de-roberti-8935081a2" target="_blank"><img src="img/LinkedIn-min.png" alt="linkedin"> </a>
                         <a href="https://www.youtube.com/channel/UC2gFaIroKHKrgIeyJ9mIZgw" target="_blank"><img src="img/Youtube-min.png" alt="youtube"> </a>
@@ -64,6 +65,7 @@
     <?php
     include('footer.php');
     ?>
+
 </body>
 
 </html>
