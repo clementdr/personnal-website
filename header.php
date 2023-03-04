@@ -1,6 +1,6 @@
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
 <header>
-    <li id="logo"><a href="index.php">de roberti.</a> </li>
+    <div id="logo"><a href="index.php">de roberti.</a> </div>
 
 
     <div id="menu-burger">
@@ -12,19 +12,20 @@
 
 
 
-            <ul id="menu-burger-element">
+            <div id="menu-burger-element">
                 <a href="index.php">
-                    <li>Accueil</li>
+                    <p class="li">Accueil</p>
                 </a>
                 <a href="mmi.php">
-                    <li>MMI</li>
+                    <p class="li">MMI</p>
                 </a>
                 <a href="portfolio.php">
-                    <li>Portfolio</li>
+                    <p class="li">Portfolio</p>
                 </a>
                 <a href="book.php">
-                    <li>Book</li>
+                    <p class="li">Book</p>
                 </a>
+            </div>
         </nav>
     </div>
 

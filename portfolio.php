@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="img/favicon.png">
     <title>Portfolio</title>
 </head>
@@ -25,7 +25,7 @@
 
         <section id="portfolio-content">
 
-            </a><a href="portfolio/portefolio_comprendre.pdf" target="_blank" class="portfolio-content">
+            <a href="portfolio/portefolio_comprendre.pdf" target="_blank" class="portfolio-content">
                 <div class="portfolio-content-text">
                     <p>Portfolio</p>
                     <img src="img/school.svg" alt="school">
@@ -34,7 +34,7 @@
 
             </a>
 
-            </a><a href="portfolio/portefolio_concevoir.pdf" target="_blank" class="portfolio-content">
+            <a href="portfolio/portefolio_concevoir.pdf" target="_blank" class="portfolio-content">
                 <div class="portfolio-content-text">
                     <p>Portfolio</p>
                     <img src="img/handmade.svg" alt="handmade">
@@ -43,7 +43,7 @@
 
             </a>
 
-            </a><a href="portfolio/portefolio_exprimer.pdf" target="_blank" class="portfolio-content">
+            <a href="portfolio/portefolio_exprimer.pdf" target="_blank" class="portfolio-content">
                 <div class="portfolio-content-text">
                     <p>Portfolio</p>
                     <img src="img/text.svg" alt="text">
@@ -52,7 +52,7 @@
 
             </a>
 
-            </a><a href="portfolio/portefolio_developper.pdf" target="_blank" class="portfolio-content">
+            <a href="portfolio/portefolio_developper.pdf" target="_blank" class="portfolio-content">
                 <div class="portfolio-content-text">
                     <p>Portfolio</p>
                     <img src="img/data.svg" alt="data">
@@ -61,7 +61,7 @@
 
             </a>
 
-            </a><a href="portfolio/portefolio_entreprendre.pdf" target="_blank" class="portfolio-content">
+            <a href="portfolio/portefolio_entreprendre.pdf" target="_blank" class="portfolio-content">
                 <div class="portfolio-content-text">
                     <p>Portfolio</p>
                     <img src="img/folder.svg" alt="folder">

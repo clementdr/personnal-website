@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="img/favicon.png">
     <title>Book</title>
 </head>
@@ -32,9 +32,9 @@
 
         <section id="book-content-audiovisuel">
             <div class="book-content-img">
-                <iframe class="video" src="https://www.youtube.com/embed/KBRwRPB7n6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-                <iframe class="video" src="https://www.youtube.com/embed/F3gnXBOPeyM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-                <iframe class="video" src="https://www.youtube.com/embed/ndx8BRg_GbE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                <iframe class="video" src="https://www.youtube.com/embed/KBRwRPB7n6I" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                <iframe class="video" src="https://www.youtube.com/embed/F3gnXBOPeyM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                <iframe class="video" src="https://www.youtube.com/embed/ndx8BRg_GbE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
             </div>
 
             <div class="book-content-btn">

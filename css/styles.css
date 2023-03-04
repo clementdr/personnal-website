@@ -31,7 +31,7 @@ header a {
   text-decoration: none;
 }
 
-header li {
+header .li {
   color: black;
   list-style-type: none;
   text-decoration: none;
@@ -112,13 +112,14 @@ header li {
   z-index: 1;
 }
 
-#menu-burger-element li {
+#menu-burger-element .li {
   padding: 10px 0;
+  margin: 0;
   font-size: 22px;
   transition: 0.3s all;
 }
 
-#menu-burger-element li:hover {
+#menu-burger-element .li:hover {
   color: rgb(131, 131, 131);
 }
 
