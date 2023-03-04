@@ -23,8 +23,9 @@
             <h1>Book</h1>
 
             <div id="buttons">
-                <a href="#audiovisuel">Audiovisuel</a>
-                <a href="#infographie">Infographie</a>
+                <a href="#book-content-audiovisuel">Audiovisuel</a>
+                <a href="#book-content-photographie">Photographie</a>
+                <a href="#book-content-infographie">Infographie</a>
             </div>
 
         </section>
@@ -36,7 +37,7 @@
                 <iframe class="video" src="https://www.youtube.com/embed/ndx8BRg_GbE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
             </div>
 
-            <div id="book-content-infographie-btn">
+            <div class="book-content-btn">
                 <a href="https://www.youtube.com/channel/UC2gFaIroKHKrgIeyJ9mIZgw" target="_blank" class="book-content-link">
                     <div class="book-content-link-text">
                         <p>Audiovisuel</p>
@@ -51,6 +52,29 @@
 
         </section>
 
+        <section id="book-content-photographie">
+
+            <div class="book-content-img">
+                <img src="img/eiffel.jpg" alt="eiffel">
+                <img src="img/renault.jpg" alt="renault">
+                <img src="img/classg.jpg" alt="classg">
+
+            </div>
+
+            <div class="book-content-btn">
+                <a href="https://instagram.com/clement.dr" target="_blank" class="book-content-link">
+                    <div class="book-content-link-text">
+                        <p>Photographie</p>
+                        <img src="img/Instagram-min.png" alt="instagram">
+                        <h4>Instagram</h4>
+                    </div>
+
+                </a>
+            </div>
+
+        </section>
+
+
         <section id="book-content-infographie">
 
             <div class="book-content-img">
@@ -60,10 +84,10 @@
 
             </div>
 
-            <div id="book-content-infographie-btn">
+            <div class="book-content-btn">
                 <a href="https://www.behance.net/clementdr" target="_blank" class="book-content-link">
                     <div class="book-content-link-text">
-                        <p>Audiovisuel</p>
+                        <p>Infographie</p>
                         <img src="img/Behance-min.png" alt="behance">
                         <h4>Behance</h4>
                     </div>
@@ -72,7 +96,7 @@
 
                 <a href="https://dribbble.com/clementdr" target="_blank" class="book-content-link">
                     <div class="book-content-link-text">
-                        <p>Audiovisuel</p>
+                        <p>Infographie</p>
                         <img src="img/Dribbble-min.png" alt="dribbble">
                         <h4>Dribbble</h4>
                     </div>

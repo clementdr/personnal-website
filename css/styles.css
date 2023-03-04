@@ -182,7 +182,7 @@ header li {
 #buttons {
   display: flex;
   justify-content: space-around;
-  width: 500px;
+  width: 600px;
   margin: 0 auto;
   margin-top: 50px;
 }
@@ -293,6 +293,7 @@ header li {
 }
 
 #book-content-audiovisuel,
+#book-content-photographie,
 #book-content-infographie {
   justify-content: space-around;
   margin: 80px;
@@ -318,7 +319,7 @@ header li {
   border-radius: 15px;
 }
 
-#book-content-infographie-btn {
+.book-content-btn {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
