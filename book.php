@@ -41,7 +41,7 @@
                 <a href="https://www.youtube.com/channel/UC2gFaIroKHKrgIeyJ9mIZgw" target="_blank" class="book-content-link">
                     <div class="book-content-link-text">
                         <p>Audiovisuel</p>
-                        <img src="img/Youtube-min.png" alt="youtube">
+                        <img class="icon" src="img/Youtube-min.png" alt="youtube">
                         <h4>Youtube</h4>
                     </div>
 
@@ -65,8 +65,16 @@
                 <a href="https://instagram.com/clement.dr" target="_blank" class="book-content-link">
                     <div class="book-content-link-text">
                         <p>Photographie</p>
-                        <img src="img/Instagram-min.png" alt="instagram">
+                        <img class="icon" src="img/Instagram-min.png" alt="instagram">
                         <h4>Instagram</h4>
+                    </div>
+
+                </a>
+                <a href="https://cderoberti1.wixsite.com/clementderoberti" target="_blank" class="book-content-link">
+                    <div class="book-content-link-text">
+                        <p>Photographie</p>
+                        <img class="icon" src="img/wix.png" alt="wix">
+                        <h4>Wix</h4>
                     </div>
 
                 </a>
@@ -88,7 +96,7 @@
                 <a href="https://www.behance.net/clementdr" target="_blank" class="book-content-link">
                     <div class="book-content-link-text">
                         <p>Infographie</p>
-                        <img src="img/Behance-min.png" alt="behance">
+                        <img class="icon" src="img/Behance-min.png" alt="behance">
                         <h4>Behance</h4>
                     </div>
 
@@ -97,7 +105,7 @@
                 <a href="https://dribbble.com/clementdr" target="_blank" class="book-content-link">
                     <div class="book-content-link-text">
                         <p>Infographie</p>
-                        <img src="img/Dribbble-min.png" alt="dribbble">
+                        <img class="icon" src="img/Dribbble-min.png" alt="dribbble">
                         <h4>Dribbble</h4>
                     </div>
 

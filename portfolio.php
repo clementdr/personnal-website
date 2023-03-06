@@ -28,7 +28,7 @@
             <a href="portfolio/portefolio_comprendre.pdf" target="_blank" class="portfolio-content">
                 <div class="portfolio-content-text">
                     <p>Portfolio</p>
-                    <img src="img/school.svg" alt="school">
+                    <img class="icon" src="img/school.svg" alt="school">
                     <h4>Comprendre</h4>
                 </div>
 
@@ -37,7 +37,7 @@
             <a href="portfolio/portefolio_concevoir.pdf" target="_blank" class="portfolio-content">
                 <div class="portfolio-content-text">
                     <p>Portfolio</p>
-                    <img src="img/handmade.svg" alt="handmade">
+                    <img class="icon" src="img/handmade.svg" alt="handmade">
                     <h4>Concevoir</h4>
                 </div>
 
@@ -46,7 +46,7 @@
             <a href="portfolio/portefolio_exprimer.pdf" target="_blank" class="portfolio-content">
                 <div class="portfolio-content-text">
                     <p>Portfolio</p>
-                    <img src="img/text.svg" alt="text">
+                    <img class="icon" src="img/text.svg" alt="text">
                     <h4>Exprimer</h4>
                 </div>
 
@@ -55,7 +55,7 @@
             <a href="portfolio/portefolio_developper.pdf" target="_blank" class="portfolio-content">
                 <div class="portfolio-content-text">
                     <p>Portfolio</p>
-                    <img src="img/data.svg" alt="data">
+                    <img class="icon" src="img/data.svg" alt="data">
                     <h4>Développer</h4>
                 </div>
 
@@ -64,7 +64,7 @@
             <a href="portfolio/portefolio_entreprendre.pdf" target="_blank" class="portfolio-content">
                 <div class="portfolio-content-text">
                     <p>Portfolio</p>
-                    <img src="img/folder.svg" alt="folder">
+                    <img class="icon" src="img/folder.svg" alt="folder">
                     <h4>Entreprendre</h4>
                 </div>
 
